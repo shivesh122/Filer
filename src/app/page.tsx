@@ -94,7 +94,7 @@ export default function LandingPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 sm:mb-16 px-4 sm:px-0">
               {user ? (
-                <Link href="/app">
+                <Link href="https://fixtral.vercel.app/app">
                   <Button
                     size="lg"
                     className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 shadow-lg hover:shadow-xl transition-all duration-200 mobile-button w-full sm:w-auto"
@@ -255,7 +255,7 @@ export default function LandingPage() {
 
             <div className="flex space-x-4 sm:space-x-6">
               <a
-                href="https://www.x.com/anjumfariz"
+                href="https://www.x.com/Shivesh9554"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors touch-target p-2 rounded-lg hover:bg-muted/50"
@@ -264,7 +264,7 @@ export default function LandingPage() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/farizanjum"
+                href="https://www.linkedin.com/in/shiveshai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors touch-target p-2 rounded-lg hover:bg-muted/50"
@@ -275,7 +275,7 @@ export default function LandingPage() {
                 </svg>
               </a>
               <a
-                href="https://www.github.com/farizanjum"
+                href="https://www.github.com/shivesh122"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors touch-target p-2 rounded-lg hover:bg-muted/50"
@@ -289,8 +289,8 @@ export default function LandingPage() {
           </div>
 
           <div className="text-center mt-6 sm:mt-8 pt-6 sm:pt-8 border-t text-sm text-muted-foreground mobile-responsive-text">
-            <p>&copy; 2025 Fixtral. Built with Next.js, Tailwind CSS, and Google Gemini AI.</p>
-            <p className="mt-2">Made with ❤️ by Fariz Anjum</p>
+            <p>Built with Next.js, Tailwind CSS, and Google Gemini AI.</p>
+            <p className="mt-2">Made with ❤️ by Shivesh Tiwari</p>
           </div>
         </div>
       </footer>
@@ -301,7 +301,7 @@ export default function LandingPage() {
         onClose={() => setShowAuthModal(false)}
         onSuccess={() => {
           // Redirect to app after successful authentication
-          window.location.href = '/app'
+          window.location.href = 'https://fixtral.vercel.app/app'
         }}
       />
     </div>
