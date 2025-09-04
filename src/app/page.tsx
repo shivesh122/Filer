@@ -232,7 +232,7 @@ export default function LandingPage() {
               Join thousands of creators using AI to enhance their visual content
             </p>
 
-            <Link href="/app">
+            <Link href="https://fixtral.vercel.app/app">
               <Button size="lg" className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary text-primary-foreground font-semibold px-6 sm:px-8 py-3 sm:py-3 shadow-lg hover:shadow-xl transition-all duration-300 mobile-button w-full sm:w-auto">
                 <Wand2 className="mr-2 h-5 w-5" />
                 Launch Fixtral
