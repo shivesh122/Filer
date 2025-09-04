@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: 'Fixtral - AI Photoshop Assistant',
   description: 'Automate image edits from Reddit\'s r/PhotoshopRequest using Google Gemini AI. Transform your images with AI-powered editing tools.',
   keywords: ['AI image editing', 'Photoshop automation', 'Reddit PhotoshopRequest', 'Google Gemini AI', 'image transformation', 'AI art generation'],
-  authors: [{ name: 'Fariz Anjum' }],
-  creator: 'Fariz Anjum',
+  authors: [{ name: 'Shivesh Tiwari' }],
+  creator: 'Shivesh Tiwari',
   publisher: 'Fixtral',
   formatDetection: {
     email: false,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: 'Fixtral - AI Photoshop Assistant',
     description: 'Transform your images with AI-powered editing. Automate edits from Reddit\'s r/PhotoshopRequest using Google Gemini AI.',
     images: ['/og-image.jpg'],
-    creator: '@anjumfariz',
+    creator: '@ShiveshTiwari',
   },
 
   // Favicons and icons
